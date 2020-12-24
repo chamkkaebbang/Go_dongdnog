@@ -15,7 +15,8 @@
 
     background-size: cover;
     background-position: center;
-    padding-left: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .navbar {
     width: 85%;
@@ -35,6 +36,9 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+}
+.navbar ul li a:hover {
+    color: rgb(245, 200, 200);
 }
 .namebar h2 {
     padding: 20px 41px;
@@ -102,6 +106,9 @@
 .row { 
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.col {
 }
 h3 {
     color: whitesmoke;
@@ -112,6 +119,7 @@ h3 > span {
     color: rgb(245, 200, 200);
     margin-block: 0;
 }
+
 .col > p { 
     color: whitesmoke;
     font-size: 20px;
@@ -119,4 +127,14 @@ h3 > span {
     margin-block: 0;
     margin-top: 45px;
     font-weight: bold;
+}
+.row > img {
+    margin-top: 190px;
+    width: 600px;
+    height: 500px;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.row > img:hover {
+    transform: scale(0.95);
 }
