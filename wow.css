@@ -1,0 +1,43 @@
+.container {
+    width: 700px;
+    height: 700px;
+    margin: 138px auto;
+    align-content: center;
+}
+.pic {
+    position: absolute;
+    width: 120px;
+    height:160px;
+}
+.pic > a {
+    size: auto;
+}
+a > img {
+    position: absolute;
+    display: block;
+    margin-left: 290px;
+    margin-top: 290px;
+    width: 120px;
+    height:160px;
+}
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin-block: 0;
+    text-align: center;
+    padding: 35px;
+}   
+.list > li {
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 0 ;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.list > li:hover {
+    color:white ;
+    background-color: #2e5383;
+    transition: all 0.3s;
+}
