@@ -4,7 +4,7 @@
     padding: 0;
 }
 .banner {
-    height: 5000px;
+    height: 8000px;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9a8478+0,1e130c+100 */
     background: #9a8478; /* Old browsers */
     background: -moz-linear-gradient(top,  #9a8478 0%, #1e130c 100%); /* FF3.6-15 */
@@ -175,11 +175,6 @@ p > span {
     font-weight: bold;
 }
 .hand {
-    width: 500px;
-    height: 500px;
-    margin-left: 285px;
-}
-.vs_card {
     width: 500px;
     height: 500px;
     margin-left: 285px;
