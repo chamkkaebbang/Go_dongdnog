@@ -250,3 +250,178 @@
 .section input[id="slide06"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(6) > label {
     background: rgb(245, 200, 200);
 }
+.container {
+    min-width: 913px
+}
+.comp-wrap {
+    margin-bottom: 50px;
+}
+.time-list-wrap {
+    box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+    transition: 0.3s;
+	transform: scale(1);
+}
+.time-list-wrap:hover {
+    transform: scale(1.02);
+}
+.tab-wrap {
+    text-align: center;
+}
+
+.img img {
+    width: 540px;
+    height: 303px;
+    
+}
+.timeline-area {
+    position: relative;
+    padding-left: 60px;     
+}
+.timeline-area:first-child:before {
+    top: 30px;
+}
+.timeline-area:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 18px;
+    width: 4px;
+    background: #4b79a1; /* Old browsers */
+    background: -moz-linear-gradient(top, #4b79a1 13%, #283e51 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4b79a1 13%,#283e51 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4b79a1 13%,#283e51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b79a1', endColorstr='#283e51',GradientType=0 ); /* IE6-9 */
+}
+.timeline-area:first-child .write-date {
+    padding-top: 0;
+}
+.timeline-area .write-date {
+    position: relative;
+    margin: 0 0 -10px -60px;
+    padding: 30px 0 0 60px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 40px;
+    text-align: left;
+}
+.timeline-area .list-timeline {
+    position: relative;
+    height: 400px;
+    margin-top: 20px;
+    padding-left: 540px;
+    border-radius: 10px;
+    background: #283e51; /* Old browsers */
+    background: -moz-linear-gradient(left, #283e51 0%, #4b79a1 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #283e51 0%,#4b79a1 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #283e51 0%,#4b79a1 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283e51', endColorstr='#4b79a1',GradientType=1 ); /* IE6-9 */
+    text-align: left;
+}
+.timeline-area .list-timeline.movie, .timeline-area .list-timeline.movie .img {
+    height: 303px;
+}
+.timeline-area .list-timeline .img {
+    overflow: hidden;
+    position: absolute;
+    left: -1px;
+    width: 540px;
+    height: 400px;
+    background: white;
+}
+.timeline-area .video-con {
+    margin: 0;
+    padding: 30px;
+}
+.timeline-info .tit {
+    overflow: hidden;
+    height: 72px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    line-height: 34px;
+}
+.timeline-info .tit1 { 
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(218, 218, 218);
+}
+/* 글씨 꾸미기 */
+.blind {
+    padding: 20px 41px;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.write-date {
+    color: white;
+}
+.timeline-area-1 {
+    position: relative;
+    padding-left: 60px;     
+}
+.timeline-area-1:first-child:before {
+    top: 30px;
+}
+.timeline-area-1:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 18px;
+    width: 4px;
+    background: #56b4d3; /* Old browsers */
+    background: -moz-linear-gradient(left, #56b4d3 0%, #348f50 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #56b4d3 0%,#348f50 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #56b4d3 0%,#348f50 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56b4d3', endColorstr='#348f50',GradientType=1 ); /* IE6-9 */
+}
+.timeline-area-1:first-child .write-date {
+    padding-top: 0;
+}
+.timeline-area-1 .write-date {
+    position: relative;
+    margin: 0 0 -10px -60px;
+    padding: 30px 0 0 60px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 40px;
+    text-align: left;
+}
+.timeline-area-1 .list-timeline {
+    position: relative;
+    height: 400px;
+    margin-top: 20px;
+    padding-left: 540px;
+    border-radius: 10px;
+    background: #56b4d3; /* Old browsers */
+    background: -moz-linear-gradient(left, #56b4d3 0%, #348f50 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #56b4d3 0%,#348f50 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #56b4d3 0%,#348f50 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56b4d3', endColorstr='#348f50',GradientType=1 ); /* IE6-9 */
+    text-align: left;
+}
+.timeline-area-1 .list-timeline.movie-1, .timeline-area-1 .list-timeline.movie-1 .img {
+    height: 303px;
+}
+.timeline-area-1 .list-timeline .img {
+    overflow: hidden;
+    position: absolute;
+    left: -1px;
+    width: 540px;
+    height: 400px;
+    background: white;
+}
+.timeline-area-1 .video-con {
+    margin: 0;
+    padding: 30px;
+}
+
+
