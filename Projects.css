@@ -4,7 +4,7 @@
     padding: 0;
 }
 .banner {
-    height: 8000px;
+    height: 3000px;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9a8478+0,1e130c+100 */
     background: 
     background: -moz-linear-gradient(top,  #9a8478 0%, #1e130c 100%); /* FF3.6-15 */
@@ -485,8 +485,6 @@
     margin: 0;
     padding: 30px;
 }
-
-
 .timeline-area-3 {
     position: relative;
     padding-left: 60px;     
