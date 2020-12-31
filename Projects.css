@@ -11,8 +11,6 @@
     background: -webkit-linear-gradient(top,  #9a8478 0%,#1e130c 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #9a8478 0%,#1e130c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a8478', endColorstr='#1e130c',GradientType=0 ); /* IE6-9 */
-
-
     background-size: cover;
     background-position: center;
     padding-left: 20%;
