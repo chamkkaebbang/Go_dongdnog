@@ -51,6 +51,9 @@
     margin-top: 45px;
     margin-bottom: 30px;
 }
+.col2 span {
+    color: rgb(245, 200, 200);
+}
 .row2 p {
     text-align: center;
     color: whitesmoke;
