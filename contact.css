@@ -2,7 +2,11 @@
     font-family: 'NanumBarunpen';
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    
 }
+a:link { color: rgb(245, 200, 200); }
+a:visited { color: rgb(245, 200, 200); }
 .banner {
     height: 100vh;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9a8478+0,1e130c+100 */

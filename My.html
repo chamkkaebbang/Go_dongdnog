@@ -13,6 +13,15 @@
     </style>
 </head>
 <body>
+    <script>
+        $(".up-button").click(function(){
+            $('html, body').animate({scrollTop:0}, 200);
+        });
+    
+        $(".down-button").click(function(){
+            $('html, body').animate({scrollTop:($('body').height())}, 200);
+});  
+    </script>
 <div class="banner">
     <div class="navbar">
         <img src="#" alt="">
@@ -27,6 +36,10 @@
         <h2>Who am i</h2>
     </div>
     <div class="container">
+        <div class="bbutt">
+            <a href="https://chamkkaebbang.github.io/Go_dongdnog/My.html"><button class="up-button">up</button></a>
+            
+        </div>
         <div class="card" id="pick">
             <div class="img-gradient"></div>
                 <img class="pic" src="img/Go.jpg" alt="" srcset="">
@@ -168,7 +181,7 @@
                             </div>
                 </div>
                 <footer>
-                    <a id="back-to-top" href="#"></a>
+                    <a id="back-to-top" href="#"></a>   
                 </footer>
                 
 </div>

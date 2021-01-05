@@ -21,3 +21,10 @@ window.addEventListener('scroll', function(){
         btt.className = '';
     }
 })
+$(".up-button").click(function(){
+            $('html, body').animate({scrollTop:0}, 200);
+        });
+    
+        $(".down-button").click(function(){
+            $('html, body').animate({scrollTop:($('body').height())}, 200);
+});  
