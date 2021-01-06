@@ -58,11 +58,25 @@
 #pick:hover{
 	transform: scale(1);
 } */
-.bbutt {
+.up-button {
     position: fixed;
-    top: 200px;
+    bottom: 50px;
     right: 70px;
-    
+    border: none;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    background-color: #B1A181;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+    transition: 0.3s;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.up-button:hover {
+    cursor: pointer;
+    transform: scale(0.94);
 }
 .card{
     position: relative;
@@ -74,7 +88,7 @@
 	margin:10px;
 	box-shadow: 0 20px 35px rgba(0,0,0,0.3);
 	transition: 0.3s;
-	transform: scale(1);
+    transform: scale(1);
 }
 .card:hover{
 	transform: scale(0.95);
